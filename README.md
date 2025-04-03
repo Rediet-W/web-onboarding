@@ -1,6 +1,6 @@
-# TO-DO-LIST-APP-with-javascript
+# TO-DO-LIST-APP-with-typecript
 
-This is a simple To-Do List application built using HTML, CSS, and JavaScript.
+This is a simple To-Do List application built using HTML, CSS, and TypeScript.
 
 ## Features
 
