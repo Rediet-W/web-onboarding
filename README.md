@@ -1,30 +1,45 @@
-# React To-Do List
+# Simple Contact Form using React and `useForm` Hook
 
-This is a simple To-Do List application built with React and TypeScript, powered by Vite. The app allows users to add, edit, and delete tasks.
+## Description
+
+This project implements a simple contact form using React and the `useForm` hook from the `react-hook-form` library. The contact form includes fields for Name, Email, and Message, with validation to ensure required fields are filled and the email format is correct. The form state and validation are managed using the `useForm` hook, making it easy to handle form submissions and display error messages for invalid inputs.
 
 ## Features
 
-- **Add Tasks**: Users can input tasks and add them to the list.
-- **Edit Tasks**: Users can edit the content of existing tasks by using edit button.
-- **Delete Tasks**: Users can remove tasks from the list by checking a checkbox.
+- **Form Fields**: The form includes fields for Name, Email, and Message.
+  - Name: Required.
+  - Email: Required and must be in a valid email format.
+  - Message: Required.
+- **Form Validation**: Proper validation for required fields and email format.
+- **Error Messages**: Displays error messages for invalid form inputs.
 
-## Getting Started
+## Instructions to Run the Project
 
-To run the application locally, follow these steps:
-
-1. **clone the repository**
+### Clone the Repository
 
 ```bash
 git clone https://github.com/Rediet-W/web-onboarding.git
-
-cd web-onboarding
-
+cd contact-form-with-react
 npm install
-
 npm run dev
 ```
 
-![Screenshot](images/image1.png)
-initial page with no task added
-![Screenshot](images/image3.png)
-tasks added with edit buttons and checkbox and edit and delete task feature
+Open your browser and navigate to http://localhost:3000 to view and interact with the contact form.
+
+### Images
+
+### default state with all fields empty and no validation messages displayed.
+
+![Screenshot](public/style.png)
+
+### displaying error messages indicating that the Name, Email, and Message fields are required.
+
+![Screenshot](public/required2.png)
+
+### An error message for the Email field, indicating that the entered email format is invalid.
+
+![Screenshot](public/invalid_email.png)
+
+### With all fields filled out correctly and no error messages displayed
+
+![Screenshot](public/valid3.png)

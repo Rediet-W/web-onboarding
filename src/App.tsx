@@ -1,12 +1,16 @@
-import React from "react";
-import TaskList from "./components/TaskList";
 
-const App: React.FC = () => {
+
+import './App.css'
+import { ContactForm } from './components/contactForm';
+
+function App() {
+
   return (
-    <div className="min-h-screen bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">
-      <TaskList />
+    <div className='container'>
+      <h1>Contact Form</h1>
+      <ContactForm />
     </div>
   );
-};
+}
 
-export default App;
+export default App

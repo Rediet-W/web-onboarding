@@ -1,0 +1,56 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color:transparent;
+  border-radius: 8px;
+  max-height: 95%;
+}
+
+label{
+  display: block;
+  margin-top: 1rem;
+  text-align: left;
+  font-weight: bold;
+  color: #555;
+  font-style: oblique;
+}
+input{
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+#button{
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #537bf6;
+  color: white; /* Add this line to set the text color to white */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+form{
+  margin-top: 2rem;
+}
+.errors {
+  color: red;
+  margin-top: 0.5rem;
+  text-align: left;
+  font-style: italic;
+}
+h1{color: #1d1e1e;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+body {
+  background-color: #d2d5d6; }
+#submit{
+  color:white
+}
+body {
+  background-image: url(../public/image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
