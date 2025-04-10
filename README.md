@@ -1,45 +1,47 @@
-# Simple Contact Form using React and `useForm` Hook
+# Job Listing Application
 
-## Description
-
-This project implements a simple contact form using React and the `useForm` hook from the `react-hook-form` library. The contact form includes fields for Name, Email, and Message, with validation to ensure required fields are filled and the email format is correct. The form state and validation are managed using the `useForm` hook, making it easy to handle form submissions and display error messages for invalid inputs.
+This project is a job listing application built with React and Next.js. It demonstrates the ability to create dynamic user interfaces, handle static data, and implement responsive designs using Tailwind CSS. The application features a job listing dashboard, job detail views, and various UI components such as job cards populated with dummy data.
 
 ## Features
 
-- **Form Fields**: The form includes fields for Name, Email, and Message.
-  - Name: Required.
-  - Email: Required and must be in a valid email format.
-  - Message: Required.
-- **Form Validation**: Proper validation for required fields and email format.
-- **Error Messages**: Displays error messages for invalid form inputs.
+- **Job Card Component:** A React component that closely resembles the design provided in the task.
+- **Dynamic Data Handling:** The card is populated with dummy data from a JSON file stored in the project.
+- **Job Listing Dashboard:** A dashboard that lists all available job opportunities, styled using Tailwind CSS.
+- **Job Details Page:** Detailed view of each job, including description, responsibilities, and other relevant information.
 
-## Instructions to Run the Project
+## Installation
 
-### Clone the Repository
+To get started with this project, follow the steps below:
 
-```bash
-git clone https://github.com/Rediet-W/web-onboarding.git
-cd contact-form-with-react
-npm install
-npm run dev
-```
+1. **Clone the repository:**
 
-Open your browser and navigate to http://localhost:3000 to view and interact with the contact form.
+   ```bash
+   git clone https://github.com/Rediet-W/web-onboarding.git
+   Navigate to the project directory:
 
-### Images
+   cd job_listing_app
+   Install dependencies:
+   npm install
 
-### default state with all fields empty and no validation messages displayed.
+   Start the development server:
+   npm run dev
+   Open your browser and go to http://localhost:3000 to view the application.
+   ```
 
-![Screenshot](public/style.png)
+## Usage
 
-### displaying error messages indicating that the Name, Email, and Message fields are required.
+The main job listing page is accessible at /jobs, where you can view the list of all job opportunities.
+Click on any job title to view the detailed job description.
 
-![Screenshot](public/required2.png)
+## Screenshots
 
-### An error message for the Email field, indicating that the entered email format is invalid.
+### Job Listing Dashboard:
 
-![Screenshot](public/invalid_email.png)
+![Screenshot](public/job_list2.png)
 
-### With all fields filled out correctly and no error messages displayed
+This page displays a list of all job opportunities available.
 
-![Screenshot](public/valid3.png)
+### Job Detail Page:
+
+![Screenshot](public/jobs_detail.png)
+Provides a detailed view of a selected job, including its description, responsibilities, location, and required skills.
