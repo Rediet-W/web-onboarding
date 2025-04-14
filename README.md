@@ -16,17 +16,18 @@ To get started with this project, follow the steps below:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/Rediet-W/web-onboarding.git
+   git clone https://github.com/Rediet-W/Web_Track.git
    Navigate to the project directory:
-
-   cd job_listing_app
-   Install dependencies:
-   npm install
-
-   Start the development server:
-   npm run dev
-   Open your browser and go to http://localhost:3000 to view the application.
    ```
+
+cd Web_Track
+Install dependencies:
+
+npm install
+Start the development server:
+
+npm run dev
+Open your browser and go to http://localhost:3000 to view the application.```
 
 ## Usage
 
@@ -37,7 +38,7 @@ Click on any job title to view the detailed job description.
 
 ### Job Listing Dashboard:
 
-![Screenshot](public/job_list2.png)
+![Screenshot](public/jobs_list.png)
 
 This page displays a list of all job opportunities available.
 

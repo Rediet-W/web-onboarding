@@ -13,13 +13,6 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-      listStyleType: {
-          checkmark: 'url("/tick.png")',
-        
-      },fontFamily: {
-        poppins: ['Poppins', 'sans-serif'], 
-        Epilogue: ['Epilogue', 'sans-serif'],
-      }
     },
   },
   plugins: [],

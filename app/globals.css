@@ -24,6 +24,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  margin-right: 4;
 }
 
 @layer utilities {
@@ -31,6 +32,6 @@ body {
     text-wrap: balance;
   }
 }
-.custom-bullet {
-  list-style-image: url('/exercises/my-app/public/tick.png');
+body{
+  background-color: white;
 }
