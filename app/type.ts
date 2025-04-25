@@ -1,36 +1,75 @@
-
 export interface JobPost {
-    id: string;
-    title: string;
-    description: string;
-    responsibilities: string;
-    idealCandidate: string;
-    whenAndWhere: string;
-    createdAt: string, 
-    deadline: string,
-    location: string[]
-    startDate: string,
-    endDate: string,
-    categories: string[],
-    requiredSkills: string[],
-    orgName: string, 
-    logoUrl: string,
-    opType: string,
-    datePosted: string,
-  }
-  
-  export interface JobPosting {
-    success: boolean;
-    message: string;
-    data: JobPost[];
-    errors: string[];
-    count: number;
-  }
-  
-  export interface JobPostById {
-    success: boolean;
-    message: string;
-    data: JobPost;
-    errors: string[];
-    count: number;
-  }
+  id: string;
+  title: string;
+  description: string;
+  responsibilities: string;
+  requirements: string;
+  idealCandidate: string;
+  categories: string[];
+  opType: string;
+  startDate: string;
+  endDate: string;
+  deadline: string;
+  location: string[];
+  requiredSkills: string[];
+  whenAndWhere: string;
+  orgID: string;
+  datePosted: string;
+  status: string;
+  applicantsCount: number;
+  viewsCount: number;
+  orgName: string;
+  logoUrl: string;
+  isBookmarked: boolean;
+  isRolling: boolean;
+  questions: string | null;
+  perksAndBenefits: string | null;
+  createdAt: string;
+  updatedAt: string;
+  orgPrimaryPhone: string;
+  orgEmail: string;
+  average_rating: number;
+  total_reviews: number;
+}
+
+export interface JobPosting {
+  success: boolean;
+  message: string;
+  data: JobPost[];
+  errors: string[];
+  count: number;
+}
+
+export interface JobPostById {
+  success: boolean;
+  message: string;
+  data: JobPost;
+  errors: string[];
+  count: number;
+}
+
+export interface Bookmark {
+  dateBookmarked: string;
+  datePosted: string;
+  eventID: string;
+  location: string;
+  logoUrl: string;
+  opType: string;
+  orgName: string;
+  title: string;
+}
+
+export interface session {
+  user: {
+    data: {
+      accessToken: string;
+    };
+  };
+}
+export interface BookmarkData {
+  success: boolean;
+  message: string;
+  data: Bookmark[];
+  errors: any; // Adjust the type if you know the structure of errors
+  count: number;
+}

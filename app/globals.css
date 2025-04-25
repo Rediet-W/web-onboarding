@@ -24,7 +24,6 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-  margin-right: 4;
 }
 
 @layer utilities {
@@ -32,6 +31,19 @@ body {
     text-wrap: balance;
   }
 }
-body{
+body {
   background-color: white;
+}
+.special {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  column-gap: 1.6rem;
+}
+.special::before,
+.special::after {
+  content: "";
+  height: 2px;
+  background-color: rgba(214, 221, 235, 1);
+  display: block;
 }
