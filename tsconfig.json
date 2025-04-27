@@ -10,7 +10,7 @@
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "react-jsx", // Updated to react-jsx
+    "jsx": "preserve", // Updated to react-jsx
     "incremental": true,
     "plugins": [
       {
@@ -20,7 +20,7 @@
     "paths": {
       "@/*": ["./*"]
     },
-    "types": ["jest", "node", "react"]
+    "types": ["jest", "node", "react", "cypress"]
   },
   "include": [
     "next-env.d.ts",
