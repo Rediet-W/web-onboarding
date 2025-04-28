@@ -82,6 +82,7 @@ const Bookmarks = () => {
               >
                 <div className="flex justify-end">
                   <Image
+                    data-testid="bookmark-button"
                     src={"/Bookmarked.png"}
                     alt="Bookmarked"
                     width={20}
