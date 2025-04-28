@@ -8,6 +8,9 @@ This project is a job listing application built with React and Next.js. It demon
 - **Job Card Component:** A React component that closely resembles the design provided in the task.
 - **Job Listing Dashboard:** A dashboard that lists all available job opportunities, styled using Tailwind CSS.
 - **Job Details Page:** Detailed view of each job, including description, responsibilities, and other relevant information.
+- **Bookmark Feature:**
+  - **Bookmark Toggle Button:** The job card component includes a toggle button that allows users to bookmark or remove a job position from their saved list.
+  - **Bookmark Logic:** The application implements logic to handle bookmarking functionality using a provided endpoint. Only authenticated users can access this feature. When a user toggles the bookmark button, a request is sent to the bookmark endpoint to update the bookmarked status of the job.
 
 ## Installation
 
@@ -31,11 +34,7 @@ To get started with this project, follow the steps below:
 
 ## Screenshots
 
-Unauthenticated users
-![Screenshot](public/unauth.png)
-signup page including the google signin
-![Screenshot](public/signup.png)
-verification page
-![Screenshot](public/verify.png)
-authorized user page with logout button on the navigation
-![Screenshot](public/auth_home.png)
+Authenticated dashboard for logged in user with bookmark feature
+![Screenshot](public/dashboard.png)
+Bookmarked page
+![Screenshot](public/bookmark-page.png)
