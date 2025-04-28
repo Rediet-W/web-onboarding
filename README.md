@@ -19,7 +19,7 @@ To get started with this project, follow the steps below:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/Rediet-W/Joblisting_app_with_authentication.git
+   git clone https://github.com/Rediet-W/web-onboarding.git
     Navigate to the project directory:
 
     cd Joblisting_app_with_authentication
@@ -38,3 +38,5 @@ Authenticated dashboard for logged in user with bookmark feature
 ![Screenshot](public/dashboard.png)
 Bookmarked page
 ![Screenshot](public/bookmark-page.png)
+
+ps. u can check the public/cypress/png and u can check the public/jest.png for test results
